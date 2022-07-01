@@ -64,7 +64,7 @@ body .header-backgroung-mobile {
   background-repeat: no-repeat;
 }
 
-.primary1 {
+h1 {
   width: 327px;
   height: 150px;
   font-family: "Poppins", sans-serif;
@@ -83,7 +83,7 @@ body .header-backgroung-mobile {
   margin-right: 24px;
 }
 
-.primary2 {
+.p {
   width: 327px;
   height: 146px;
   font-family: "Poppins", sans-serif;
