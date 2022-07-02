@@ -3,10 +3,10 @@ body {
   position: relative;
   width: 375px;
   background-color: #f7f7f9;
-  border: 1px solid black;
+
 }
 
-.tool-bar {
+header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -14,7 +14,7 @@ body {
   background-color: #fff;
 }
 
-a.logo {
+a .logo {
   border: 1px solid black;
   display: flex;
   font-family: 'Poppins', sans-serif;
