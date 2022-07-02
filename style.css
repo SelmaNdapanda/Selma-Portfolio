@@ -14,10 +14,10 @@ header {
   background-color: #fff;
 }
 
-a .logo {
-  border: 1px solid black;
+a.logo {
+  
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -83,7 +83,7 @@ body .header-backgroung-mobile {
   margin-right: 24px;
 }
 
-.primary2 {
+ p {
   width: 327px;
   height: 146px;
   font-family: "Poppins", sans-serif;
@@ -94,6 +94,7 @@ body .header-backgroung-mobile {
   color: #344563;
   margin-left: 24px;
   margin-right: 24px;
+  
 }
 
 .social-media {
