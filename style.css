@@ -451,7 +451,7 @@ footer {
   background: #6070ff url("images/contact-form.png") 100% -20px no-repeat;
   background-size: contain;
   border-top-left-radius: 100px;
-  padding-top: 114px; 
+  padding-top: 114px;
   margin-bottom: 10px;
 }
 
@@ -506,7 +506,7 @@ li input {
   background: #fff;
   border: 1px solid #cfd8dc;
   font-family: "Poppins", sans-serif;
-  color: #172B4D;
+  color: #172b4d;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -523,7 +523,7 @@ li textarea {
   background: #fff;
   border: 1px solid #cfd8dc;
   font-family: "Poppins", sans-serif;
-  color: #B3BAC5;
+  color: #b3bac5;
   font-style: normal;
   font-weight: 400;
   border-radius: 8px;
@@ -540,7 +540,7 @@ li textarea {
   position: flex;
   width: 134px;
   height: 5px;
-  bottom: 2px;
+  margin-bottom: 20px; 
   margin-right: 121px;
   margin-left: 120px;
   padding-top: 10px;
