@@ -95,6 +95,8 @@ a.union {
 
 .main {
   background: #f7f7f9;
+  padding: 0;
+  margin: 0;
 }
 
 .headline {
@@ -103,11 +105,11 @@ a.union {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 604px;
   background-repeat: no-repeat;
-  border-bottom-left-radius: 80px;
+  border: 1px solid #f7f7f9;
+  border-bottom-left-radius: 25% 50px;
 }
-
+  
 .primary1 {
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -150,6 +152,54 @@ a.union {
   gap: 10px;
   margin-left: 24px;
   margin-right: 180px;
+  margin-bottom: 136px;
+}
+
+@media screen and (min-width:768px) {
+  .headline {
+    background-image: url("images/Header\ bg@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 100px;
+    width: 1397.4px;
+    height: 721.46px; 
+    padding-left: 34.6px;
+    padding-top: 119px;
+  }
+
+  .primary1 {
+    display: flex ;
+    align-items: center;
+    color: #091e42;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  .headline p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+  ul.social-media-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 260px;
+    margin-bottom: 255px;
+
+    
+  }  
 }
 
 
